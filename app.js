@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Arthur é legal');
+  res.send("Aprendi a upar API'S no vercel!");
 });
 
 app.listen(PORT, () => {
