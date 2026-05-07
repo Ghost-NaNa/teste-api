@@ -1,11 +1,12 @@
 {
-    "name": "meu-projeto-express",
+    "name": "projeto-express-vercel",
     "version": "1.0.0",
-    "description": "Projeto simples com Express",
-    "main": "app.js",
+    "description": "API Express para deploy na Vercel",
+    "main": "api/index.js",
     "scripts": {
-      "start": "node app.js",
-      "dev": "node --watch app.js"
+      "start": "node api/index.js",
+      "dev": "node --watch api/index.js",
+      "vercel-build": "echo 'Instalando dependências para Vercel...'"
     },
     "keywords": [],
     "author": "",
