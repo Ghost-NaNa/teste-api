@@ -1,17 +1,25 @@
 {
-    "name": "projeto-express-vercel",
-    "version": "1.0.0",
-    "description": "API Express para deploy na Vercel",
-    "main": "apps.js",
-    "scripts": {
-      "start": "node app.js",
-      "dev": "node --watch app.js",
-      "vercel-build": "echo 'Instalando dependências para Vercel...'"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.19.2"
-    }
+  "name": "mvc-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js + Express na arquitetura MVC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "vercel-build": "echo 'Instalando dependências para Vercel...'"
+    
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
   }
+}
