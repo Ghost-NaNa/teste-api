@@ -1,25 +1,12 @@
 {
-  "name": "mvc-server",
+  "name": "node-mvc-boilerplate",
   "version": "1.0.0",
-  "description": "Servidor Node.js + Express na arquitetura MVC",
-  "main": "src/server.js",
+  "description": "Boilerplate Node.js + Express com arquitetura MVC, JWT e tratamento de erros centralizado.",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "test": "jest --coverage",
-    "vercel-build": "echo 'Instalando dependências para Vercel...'"
-    
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5",
-    "helmet": "^7.1.0",
-    "express-validator": "^7.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2",
-    "jest": "^29.7.0",
-    "supertest": "^6.3.4"
-  }
+  "keywords": ["nodejs", "express", "mvc", "jwt", "boilerplate"],
+  "license": "MIT"
 }
